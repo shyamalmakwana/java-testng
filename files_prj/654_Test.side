@@ -1,0 +1,252 @@
+{
+  "id": "819e7399-03f4-4e24-aaed-0f891aa740a8",
+  "version": "2.0",
+  "name": "654SportsBetTesting",
+  "url": "https://staging.d1naaleerhhgb0.amplifyapp.com/demo/demo",
+  "tests": [{
+    "id": "f32f3e7d-f090-4aa9-984c-692ab7bf2fa5",
+    "name": "654StagingTest_Week1n2",
+    "commands": [{
+      "id": "03a34005-a097-4fd4-9abe-4684023f43bf",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.d1naaleerhhgb0.amplifyapp.com/demo/demo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d55f2ae6-f2e0-4fab-a8f5-3dbcdf187aee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "388dee4b-e3e3-477b-ad6f-1e226f6af988",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd81e186-0369-4c5d-9a9c-52f01208a277",
+      "comment": "",
+      "command": "type",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.input-container:nth-child(2) .MuiInput-input", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Anthony"
+    }, {
+      "id": "26a691be-6c17-47b2-8a46-d554deb0a3fb",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.input-container:nth-child(3) .MuiInput-input", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "User@123"
+    }, {
+      "id": "6ede23d0-b7cb-4dd6-b719-65b18d114d46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a34ef9a2-ff81-4273-9239-34b1a5daaaa9",
+      "comment": "",
+      "command": "times",
+      "target": "2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9863a045-a7eb-44c9-bc36-008f4004a753",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "56dbbc03-4cda-4b55-843e-094e5b75299b",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2fe6a96-63e0-429e-acea-fe76d4302a52",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//p[contains(.,'NFL - Wk 1')]",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(1) > .jss25 .jss47 > .MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[6]/div/div/div/div/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'NFL - Wk 1 - All Games - Top 6 Highest Scoring Teams')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a337a0c8-5094-418b-9006-fe82e0df373d",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "551d59db-08c5-4169-ba7c-74e8acb95658",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[11]",
+      "targets": [
+        ["css=.text-capitlize", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cf930a2-2a63-4b13-a485-f4ab6d13bd43",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a48de63-a750-4ce8-855b-221a415baa6e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[13]",
+      "targets": [
+        ["css=.submit-lg-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//div[4]/div/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4d5696c-8122-4e25-b7c5-63eb31fe20f3",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c691576-b24d-47f5-afda-d68063d66fb5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[text()=\"Close\"])",
+      "targets": [
+        ["css=.MuiButton-text", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "637be892-32b4-419b-80c9-bb25ff403c08",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5a6b59a-616d-4107-985e-aee36da217cf",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48550106-79ac-4718-a7ae-2da4768d718e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3b52b715-be4c-4ad8-a7c2-d062f9350185",
+    "name": "loop_counter",
+    "commands": [{
+      "id": "6d06955c-31f7-4dc7-bd29-228b7a8302ae",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 0",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "9c54178a-e254-4f75-9964-25ed54c202ea",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "counter"
+    }, {
+      "id": "533c9015-a6ca-45aa-8d87-11e21d2da1a4",
+      "comment": "",
+      "command": "while",
+      "target": "${counter} < 3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6dfb64a-ae05-4a07-8d87-331b51a84f85",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.seleniumTests = ['654StagingTest_Week1n2']; return window.seleniumTests[${index}];",
+      "targets": [],
+      "value": "test"
+    }, {
+      "id": "78deb6ca-1af3-4a56-ab5d-2087c2838a1f",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${counter} + 1",
+      "targets": [],
+      "value": "counter"
+    }, {
+      "id": "050b6818-8c1d-4085-9e91-7ab0d2b0fc25",
+      "comment": "",
+      "command": "run",
+      "target": "${test}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bf802c4-7b00-40ff-85ed-128faa2ae2e5",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fdb0ccb5-926d-4473-b746-cbe5ed4f9bd1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3b52b715-be4c-4ad8-a7c2-d062f9350185", "f32f3e7d-f090-4aa9-984c-692ab7bf2fa5"]
+  }],
+  "urls": ["https://staging.d1naaleerhhgb0.amplifyapp.com/", "https://staging.d1naaleerhhgb0.amplifyapp.com/demo/demo"],
+  "plugins": []
+}
